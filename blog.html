@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+<link rel="stylesheet" href="./css/all.css">
+
+    <style>
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: #4D4D4D;
+        }
+
+        .home{
+            display: flex;
+            border-radius: 5px;
+            /* border-left: 4px solid #fff; */
+            margin-top: 100px;
+            margin-left: 300px;
+            width: 300px;
+            height: 50px;
+            background: #282828;
+        }
+
+        .hom{
+            font-size: 25px;
+            margin-top: 12px;
+            margin-left: 20px;
+            color:#fff;  
+        }
+
+        .p1{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            margin-top: -25px;
+            padding-left: 70px;
+            color: #fff;
+        }
+
+        .home a{
+            text-decoration: none;
+        }
+
+        .home:hover{
+           background-color: #1C1C1C;
+           border-left: 4px solid #fff;
+        }
+
+
+ .blog{
+            border-left: 4px solid red;
+            display: flex;
+            border-radius: 5px;
+            margin-top: 1px;
+            margin-left: 300px;
+            width: 300px;
+            height: 50px;
+            background: #282828;
+        }
+
+        .blog .blo{
+            font-size: 25px;
+            margin-top: 12px;
+            margin-left: 20px;
+            color: red;
+        }
+
+        .p2{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            margin-top: -25px;
+            padding-left: 70px;
+            color: red;
+        }
+
+        .blog a{
+            text-decoration: none;
+        }
+
+        .blog:hover{
+           background-color: #1C1C1C;
+        }
+
+        .portfolio{
+            display: flex;
+            border-radius: 5px;
+            /* border-left: 4px solid white; */
+            margin-top: 1px;
+            margin-left: 300px;
+            width: 300px;
+            height: 50px;
+            background: #282828;
+        }
+
+        .far{
+            font-size: 25px;
+            margin-top: 12px;
+            margin-left: 20px;
+            color:#fff;
+        }
+
+        .p3{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            margin-top: -25px;
+            padding-left: 70px;
+            color: #fff;
+        }
+
+        .portfolio a{
+            text-decoration: none;
+        }
+
+        .portfolio:hover{
+           background-color: #1C1C1C;
+           border-left: 4px solid #fff;
+        }
+
+        .services{
+            display: flex;
+            border-radius: 5px;
+            /* border-left: 4px solid white; */
+            margin-top: 1px;
+            margin-left: 300px;
+            width: 300px;
+            height: 50px;
+            background: #282828;
+        }
+
+        .serv{
+            font-size: 25px;
+            margin-top: 12px;
+            margin-left: 20px;
+            color:white;
+        }
+
+        .p4{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            margin-top: -25px;
+            padding-left: 70px;
+            color: white;
+        }
+
+        .services a{
+            text-decoration: none;
+        }
+
+        .services:hover{
+           background-color: #1C1C1C;
+           border-left: 4px solid white;
+        }
+
+        .about{
+            display: flex;
+            border-radius: 5px;
+            /* border-left: 4px solid white; */
+            margin-top: 1px;
+            margin-left: 300px;
+            width: 300px;
+            height: 50px;
+            background: #282828;
+        }
+
+        .abou{
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 20px;
+            color:white;
+        }
+
+        .p5{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            margin-top: -25px;
+            padding-left: 70px;
+            color: white;
+        }
+
+        .about a{
+            text-decoration: none;
+        }
+
+        .about:hover{
+           background-color: #1C1C1C;
+           border-left: 4px solid white;
+        }
+
+        .contact{
+            display: flex;
+            border-radius: 5px;
+            /* border-left: 4px solid white; */
+            margin-top: 2px;
+            margin-left: 300px;
+            width: 300px;
+            height: 50px;
+            background: #282828;
+        }
+
+        .ema{
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 20px;
+            color:white;
+        }
+
+        .p6{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-transform: uppercase;
+            margin-top: -25px;
+            padding-left: 70px;
+            color: white;
+        }
+
+        .contact a{
+            text-decoration: none;
+        }
+
+        .contact:hover{
+           background-color: #1C1C1C;
+           border-left: 4px solid white;
+        }
+
+        .mini-home{
+            border-radius: 5px;
+            width: 50px;
+            height: 50px;
+            background: #282828;
+            margin-left: 650px;
+            margin-top: -305px;
+        }
+
+        .mini-hom{
+            color: #fff;
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 12px;
+        }
+
+        .mini-home:hover{
+           background-color: #1C1C1C;
+        }
+
+        .mini-blog{
+            width: 50px;
+            height: 50px;
+            background: #282828;
+            margin-left: 650px;
+            margin-top: 1px;
+            border-radius: 5px;
+        }
+
+        .mini-blo{
+            color: red;
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 13px;
+        }
+
+        .mini-blog:hover{
+           background-color: #1C1C1C;
+        }
+
+        .mini-portfolio{
+            width: 50px;
+            height: 50px;
+            background: #282828;
+            margin-left: 650px;
+            margin-top: 1px;
+            border-radius: 5px;
+        }
+
+        .mini-port{
+            color: #fff;
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 13px;
+        }
+
+        .mini-portfolio:hover{
+           background-color: #1C1C1C;
+        }
+
+        .mini-services{
+            width: 50px;
+            height: 50px;
+            background: #282828;
+            margin-left: 650px;
+            margin-top: 1px;
+            border-radius: 5px;
+        }
+
+        .mini-serv{
+            color: #fff;
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 13px;
+        }
+
+        .mini-services:hover{
+           background-color: #1C1C1C;
+        }
+
+        .mini-about{
+            width: 50px;
+            height: 50px;
+            background: #282828;
+            margin-left: 650px;
+            margin-top: 2px;
+            border-radius: 5px;
+        }
+
+        .mini-abou{
+            color: #fff;
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 13px;
+        }
+
+        .mini-about:hover{
+           background-color: #1C1C1C;
+        }
+
+        .mini-contact{
+            width: 50px;
+            height: 50px;
+            background: #282828;
+            margin-left: 650px;
+            margin-top: 2px;
+            border-radius: 5px;
+        }
+        
+        .mini-co{
+            color: #fff;
+            font-size: 25px;
+            margin-top: 12px;   
+            margin-left: 13px;
+        }
+
+        .mini-contact:hover{
+           background-color: #1C1C1C;
+        }
+
+        
+
+
+        
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+     <div class="home">
+         <a href="./hw.html">
+             <i class="fas hom fa-home"></i>
+            <p class="p1">Home</p>
+         </a>
+
+        </div>
+        
+
+        <div class="blog">
+            <a href="#">
+                <i class="far blo fa-list-alt"></i>
+                <p class="p2">Blog</p>
+            </a>
+        </div>
+
+        <div class="portfolio">
+            <a href="./portfolio.html">
+                <i class="far fa-image"></i>
+                <p class="p3">Portfolio</p>
+            </a>
+        </div>
+
+        <div class="services">
+            <a href="./services.html">
+                <i class="fas serv fa-cog"></i>
+                <p class="p4">Services</p>
+            </a>
+        </div>
+
+        <div class="about">
+            <a href="./about.html">
+                <i class="fas abou fa-user-friends"></i>
+                <p class="p5">About</p>
+            </a>
+        </div>
+
+        <div class="contact">
+            <a href="./contact.html">
+                <i class="far ema fa-envelope"></i>
+                <p class="p6">Contact</p>
+            </a>
+        </div>
+
+
+        <!-- #mini-icons -->
+
+        <div class="mini-home">
+            <a href="./hw.html">
+                <i class="fas mini-hom fa-home"></i>
+            </a>
+        </div>
+
+        <div class="mini-blog">
+            <a href="#">
+                <i class="far mini-blo fa-list-alt"></i>
+            </a>
+        </div>
+
+        <div class="mini-portfolio">
+            <a href="./portfolio.html">
+                <i class="far mini-port fa-image"></i>
+            </a>
+        </div>
+
+        <div class="mini-services">
+            <a href="./services.html">
+                <i class="fas mini-serv serv fa-cog"></i>
+            </a>
+        </div>
+
+        <div class="mini-about">
+            <a href="./about.html">
+                <i class="fas mini-abou fa-user-friends"></i>
+            </a>
+        </div>
+
+        <div class="mini-contact">
+            <a href="./contact.html">
+                <i class="far mini-co fa-envelope"></i>
+            </a>
+        </div>
+</body>
+</html>
